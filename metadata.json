@@ -1,0 +1,6 @@
+{
+  "name": "NoteShare",
+  "description": "A modern full-stack platform for students to upload, share, and discover study notes, featuring search, filters, and an admin dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
