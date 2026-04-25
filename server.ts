@@ -11,7 +11,7 @@ import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const JWT_SECRET = process.env.JWT_SECRET || 'fallback-secret';
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 // Initialize Database
 const db = new Database('notes.db');
